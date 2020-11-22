@@ -1,0 +1,6 @@
+#deckOfCards #removeSelected {
+    position: absolute;
+    z-index: 1000;
+    top: 30px;
+    left: 900px;
+}
