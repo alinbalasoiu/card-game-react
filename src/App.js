@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MainDeck from './components/MainDeck';
+import MainDeck from './components/mainDeck/MainDeck';
 
 function App() {
   return (

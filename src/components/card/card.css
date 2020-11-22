@@ -1,0 +1,28 @@
+.card  {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card .cardFace,
+.card .cardClickInterceptor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.card .cardClickInterceptor {
+    z-index: 100;
+    top: 8px;
+}
+
+.card .cardClickInterceptor:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+#deckOfCards .card .selected {
+    background-color: rgba(255, 0, 0, 0.3);
+}
