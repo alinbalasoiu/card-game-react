@@ -17,6 +17,8 @@ In the solution, the cards are generated, shuffled after generation and displaye
 If I click on any card, the card will be removed from the original deck and moved to one new deck, according to its suite.
 When placed on the new deck, the cards (if there are more than one) will be sorted by their values.
 
+A multiple selection of the cards are allowed. To do this just press and hold the SHIFT key while select / deselect a card. The selected cards are removed after pressing the 'Remove Selected' button. Also, they are all unselected if another card is pressed without holding the SHIFT Key.
+
 
 How to install and run:
 cd into the project folder then:
