@@ -1,7 +1,10 @@
-import ReactDom from 'react-dom';
 import DeckOfCards from '../deckOfCards/DeckOfCards';
+import { render } from '@testing-library/react'
 
-it("renders without crashing", () => {
-    const div = document.createElement('div');
-    ReactDom.render(<DeckOfCards updater={()=>{console.log('updater called')}}/>, div);
+describe('DeckOfCards renders a deck with 52 cards', () => {
+    test('create a deck of 52 cards', () => {
+        render(<DeckOfCards updater={()=>{console.log('testing the DeckOfCards')}}/>)
+        let cardsList = document.getElementsByClassName('card');
+        expect(cardsList).toHaveLength(52)
+      })    
 })
